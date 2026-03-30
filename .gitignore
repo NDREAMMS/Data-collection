@@ -1,0 +1,5 @@
+data/raw/images/*
+data/raw/texts/*
+data/raw/tabular/*.csv
+C:\Users\Ndreamms\ImmoVision360_DataLake\.env
+myenv/
