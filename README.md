@@ -40,6 +40,10 @@ scripts/
 5. **Audit du Data Lake**  
    - `python scripts/03_sanity_check.py`  
    - Les résultats détaillés s’affichent dans la console.
+6. **Chargement dans PostgreSQL (Data Warehouse)**  
+   - Créer un fichier `.env` à la racine (voir `.env.example`)  
+   - Installer le driver : `pip install psycopg2-binary`  
+   - Charger : `python scripts/0.6_load.py --if-exists replace`
 
 ---
 
