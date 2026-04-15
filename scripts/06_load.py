@@ -8,8 +8,7 @@ from sqlalchemy import create_engine, text
 from dotenv import load_dotenv
 import os
 
-if sys.stdout.encoding != "utf-8":
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 
 # ── Cles de connexion via .env ───────────────────────────────
 load_dotenv()

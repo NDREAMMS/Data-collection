@@ -1,0 +1,2 @@
+cd sql/postgres
+psql -U postgres -d immovision -f import_elysee_tabular.sql
